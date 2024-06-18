@@ -27,3 +27,5 @@ model.fit(x_train, y_train, epochs=5, batch_size=128, validation_data=(x_test, y
 loss, accuracy = model.evaluate(x_test, y_test)
 print(f'Modelo CNN - Loss: {loss}, Accuracy: {accuracy}')
 
+model.save("pesos.h5")
+

@@ -22,3 +22,5 @@ loss, accuracy = model.evaluate(x_test, y_test)
 print(f'Model Linear - Loss: {loss}, Accuracy: {accuracy}')
 
 
+model.save("pesos2.h5")
+
